@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html class="home" lang="en-US">
+<head>
+    <title>Washington Times - Politics, Breaking News, US and World News</title>
+    <meta name="description" content="The Washington Times delivers breaking news and commentary on the issues that affect the future of our nation.">
+  	<meta name="keywords" content="washington times, politics, breaking news, world news, political news, capitol hill">
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale = 1.0, maximum-scale = 1.0, user-scalable=yes">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/css.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+
+    <script src="css/jquery.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#mobile-menu-button").on("click", function() {
+                $(this).toggleClass("open")
+                $("#mobile-menu-button").toggleClass("on")
+                $("#css-menu").toggleClass("open");
+                return false;
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            window.onscroll = function() {
+                myFunction()
+            };
+        
+            var navbar = document.getElementById("css-menu");
+            var sticky = navbar.offsetTop;
+        
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="global-header-container">
+            <div class="header-container">
+                <div id="mobile-menu-button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="wrap-container">
+                    <!-- logo and signing -->
+                    <header id="main-nav">
+                        <nav class="navbar">
+                            <div class="sidebar-collapse"></div>
+                            <div class="main-logo">
+                                <li><a href="/" title="The Washington Times | Home">
+                                    <img src="images/logo.png" alt="Logo: The Washington Times" class="blacklogo" width="478px" height="auto">
+                                </a></li>
+                                <em>America's Newspaper</em>
+                            </div>
+                            <div class="small-logo">
+                                <div class="flex-container">
+                                    <div class="newsletter-signup-icon">
+                                        <a href="#">
+                                            <img src="images/blackmaillogo.png" alt="Alternate text for placeholder image" title="Title of the image">
+                                        </a>
+                                    </div>
+                                    <div class="signin">
+                                        <div class="signin-box">
+                                            <div class="left-signin">
+                                                <a href="#">
+                                                    <strong>Subscribe</strong>
+                                                    <br>
+                                                </a>
+                                            </div>
+                                            <div class="left-welcome"></div>
+                                            <div class="right-signin">
+                                                <p>
+                                                    <strong>Sign In</strong>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </header>
+                    <!-- Navigation -->
+                    <div id="css-menu">
+                        <ul>
+                            <li class="has-sub" id="nav_root_news"><a href="#" title="News">News</a>
+                                <ul class="submenu">
+                                    <li class="has-sub"><a href="#" title="Politics">Politics</a></li>
+                                    <li class="has-sub"><a href="#" title="White House">White House</a></li>
+                                    <li class="has-sub"><a href="#" title="COVID-19 Updates">COVID-19 Updates</a></li>
+                                    <li class="has-sub"><a href="#" title="National">National</a></li>
+                                    <li class="has-sub"><a href="#" title="World">World</a></li>
+                                    <li class="has-sub"><a href="#" title="Security">Security</a></li>
+                                    <li class="has-sub"><a href="#" title="Business &amp; Economy">Business &amp; Economy</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-sub" id="nav_root_policy"><a href="#" title="Policy">Policy</a>
+                                <ul class="submenu">
+                                    <li class="has-sub"><a href="#" title="Corrections">Corrections</a></li>
+                                    <li class="has-sub"><a href="#" title="Energy &amp; Environment">Energy &amp; Environment</a></li>
+                                    <li class="has-sub"><a href="#" title="Banking &amp; Finance">Banking &amp; Finance</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-sub" id="nav_root_opinion"><a href="#" title="Commentary">Commentary</a>
+                                <ul class="submenu">
+                                    <li class="has-sub"><a href="#" title="Commentary Main">Commentary Main</a></li>
+                                    <li class="has-sub"><a href="#" title="Corrections">Corrections</a></li>
+                                    <li class="has-sub"><a href="#" title="Editorials">Editorials</a></li>
+                                    <li class="has-sub"><a href="#" title="Letters">Letters</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-sub" id="nav_root_sports"><a href="#" title="Sports">Sports</a>
+                                <ul class="submenu">
+                                    <li class="has-sub"><a href="#" title="Sports Main">Sports Main</a></li>
+                                    <li class="has-sub"><a href="#" title="Corrections">Corrections</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-sub" id="nav_root_special_reports"><a href="#" title="Sponsored">Sponsored</a>
+                                <ul class="submenu">
+                                    <li class="has-sub"><a href="#" title="Corrections">Corrections</a></li>
+                                    <li class="has-sub"><a href="#" title="Vietnam 2021">Vietnam 2021</a></li>
+                                    <li class="has-sub"><a href="#" title="Health Care on the Hill">Health Care on the Hill</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-sub" id="nav_root_events"><a href="#" title="Events">Events</a>
+                                <ul class="submenu">
+                                    <li class="has-sub"><a href="#" title="Corrections">Corrections</a></li><li class="has-sub"><a href="#" title="Reinventing after Globalization">Reinventing after Globalization</a>
+                                    </li><li class="has-sub"><a href="#" title="The Chiefs Forum: The Next 100 Days">The Chiefs Forum: The Next 100 Days</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="has-sub" id="nav_root_podcasts"><a href="#" title="Podcasts">Podcasts</a>
+                                <ul class="submenu">
+                                    <li class="has-sub"><a href="#" title="Podcasts Main">Podcasts Main</a></li><li class="has-sub"><a href="#" title="Corrections">Corrections</a>
+                                    </li><li class="has-sub"><a href="#" title="Front Page Podcast">Front Page Podcast</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="has-sub" id="nav_root_games"><a href="#" title="Games">Games</a>
+                                <ul class="submenu">
+                                    <li class="has-sub"><a href="#" title="Games Main">Games Main</a></li>
+                                    <li class="has-sub"><a href="#" title="Corrections">Corrections</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-sub" id="nav_root_email-sticky-icon">
+                                <img src="images/whiemaillogo.png" alt="Alternate text for white e-mail image" title="White e-mail image lol">
+                            </li>
+                            <li class="has-sub" id="nav_root_subscribe">
+                                <a href="#" id="main-nav-drop10">Subscribe</a>
+                            </li>
+                            <li class="has-sub" id="nav_root_signin">
+                                <a href="#" id="main-nav-drop11">Sign In</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Podcast -->
+                    <div class="podcast-wrap">
+                        <div class="podcast-banner">
+                            <div class="podcast-item">
+                                <article class="flex-container">
+                                    <div class="main-photo no-shrink">
+                                        <a href="#">
+                                            <img src="images/65x65.png" alt="Alternate text for placeholder image" title="Title of the image">
+                                        </a>
+                                    </div>
+                                    <h2 class="article-headline">
+                                        <a href="#">Front Page Podcast: Every weekday morning</a>
+                                        <span class="podcasthed">
+                                            Get the day’s top stories with George Gerbo
+                                        </span>
+                                    </h2>
+                                </article>
+                            </div>
+                            <div class="podcast-item">
+                                <article class="flex-container">
+                                    <div class="main-photo no-shrink">
+                                        <a href="#">
+                                            <img src="images/65x65.png" alt="Alternate text for placeholder image" title="Title of the image">
+                                        </a>
+                                    </div>
+                                    <h2 class="article-headline">
+                                        <a href="#">NEW: America’s enemies don’t fear Biden</a>
+                                        <span class="podcasthed">
+                                            Former Trump Nat. Security Official Fred Fleitz with Cheryl Chumley
+                                        </span>
+                                    </h2>
+                                </article>
+                            </div>
+                            <div class="podcast-item">
+                                <article class="flex-container">
+                                    <div class="main-photo no-shrink">
+                                        <a href="#">
+                                            <img src="images/65x65.png" alt="Alternate text for placeholder image" title="Title of the image">
+                                        </a>
+                                    </div>
+                                    <h2 class="article-headline">
+                                        <a href="#">Weekend Listen: Life before Roe</a>
+                                        <span class="podcasthed">
+                                            Why states banned abortions in the 19th century
+                                        </span>
+                                    </h2>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Topics -->
+                    <div class="topics">
+                        <div class="topics-container">
+                            <div class="noborder"><a href="#" title="Ukraine">Ukraine</a></div>
+                            <div><a href="#" title="Donald Trump">Donald Trump</a></div>
+                            <div><a href="#" title="Russia">Russia</a></div>
+                            <div><a href="#" title="Supreme Court">Supreme Court</a></div>
+                            <div><a href="#" title="China">China</a></div>
+                            <div><a href="#" title="Senate">Senate</a></div>
+                            <div><a href="#" title="Congress">Congress</a></div>
+                            <div><a href="#" title="Joe Biden">Joe Biden</a></div>
+                            <div><a href="#" title="NFL">NFL</a></div>
+                            <div><a href="#" title="Vladimir Putin">Vladimir Putin</a></div>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main -->
+        <div class="main-container">
+            <div class="main-wrapper">
+                <!-- <div id="contained"> -->
+                <div class="left-column">
+                    <aside>
+                        <!-- Breaking news -->
+                        <section class="block breaking-news">
+                            <article class="flex-container">
+                                <div class="main-photo">
+                                    <a href="#"><img src="images/85x85.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine"></a>
+                                </div>
+                                <h3 class="article-headline"><a href="#">Texas shooter walked into school unimpeded, was in classroom over an hour before cops took him down</a></h3>
+                            </article>
+                            <article class="flex-container">
+                                <div class="main-photo">
+                                    <a href="#"><img src="images/85x85.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine"></a>
+                                </div>
+                                <h3 class="article-headline">
+                                    <a href="#">U.S. eyes new generation of boats, radios, cameras and other tools for potential clash with China</a>
+                                </h3>
+                            </article>
+                            <article class="flex-container">
+                                <div class="main-photo">
+                                <a href="#"><img src="images/85x85.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine"></a>
+                                </div>
+                                <h3 class="article-headline">
+                                    <a href="#">Novavax vaccine poised to be a fourth COVID-19 option in U.S.</a>
+                                </h3>
+                            </article>
+                            <article class="flex-container">
+                                <div class="main-photo">
+                                <a href="#"><img src="images/85x85.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine"></a>
+                                </div>
+                                <h3 class="article-headline">
+                                    <a href="#">Ahead of Memorial Day surge, McConnell slams Biden for saying gas prices are ‘incredible transition’</a>
+                                </h3>
+                            </article>
+                            <article class="flex-container">
+                                <div class="main-photo">
+                                <a href="#"><img src="images/85x85.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine"></a>
+                                </div>
+                                <h3 class="article-headline">
+                                    <a href="#">Government, companies hopeful more baby formula will hit shelves by weekend</a>
+                                </h3>
+                            </article>
+                        </section>
+                        <!-- Most popular -->
+                        <section class="block topic-list most-popular">
+                            <h2 class="block-title">
+                                Most Popular
+                            </h2>
+                            <div class="block-content">
+                                <article><p><a href="#">Trump judges use one-two legal punch to block Biden agenda</a></p></article>
+                                <article><p><a href="#">Senate GOP blocks Dems' domestic terrorism bill, warn it threatened to target left's political foes</a></p></article>
+                                <article><p><a href="#">Texas shooter walked into school unimpeded, was in classroom over an hour before cops took him down</a></p></article>
+                                <article><p><a href="#">Biden, Obama exploit tragedy for personal, political gain</a></p></article>
+                                <article><p><a href="#">Ahead of Memorial Day surge, McConnell slams Biden for saying gas prices are 'incredible transition'</a></p></article>
+                            </div>
+                        </section>
+                        <!-- Columns -->
+                        <section class="block topic-list columns">
+                            <h2 class="block-title">
+                                Columns
+                            </h2>
+                            <article>
+                                <h3 class="article-headline"><a href="#">Inside The Beltway</a></h3>
+                                <p><a href="#">Is civil debate possible? Lindsey, Bernie to make it happen</a></p>
+                            </article>
+                            <article>
+                                <h3 class="article-headline"><a href="#">Inside The Ring</a></h3>
+                                <p><a href="#">North Korea built up nuclear, missile power during pandemic</a></p>
+                            </article>
+                            <article>
+                                <h3 class="article-headline"><a href="#">Nuclear Option</a></h3>
+                                <p><a href="#">Biden, Obama exploit tragedy for personal, political gain</a></p>
+                            </article>
+                        </section>
+                        <!-- Latest quizzes -->
+                        <section class="block latest-quizzes">
+                            <h2 class="block-title">
+                                <a href="#">Latest Quizzes</a>
+                            </h2>
+                            <article class="flex-container">
+                                <div class="main-photo">
+                                    <a href="#">
+                                        <img src="images/85x85.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine">
+                                    </a>
+                                </div>
+                                <h3 class="article-headline">
+                                    <a href="#">
+                                        Can you pass a U.S. state capitals test?
+                                    </a>
+                                </h3>
+                            </article>
+                            <article class="flex-container">
+                                <div class="main-photo">
+                                    <a href="#">
+                                        <img src="images/85x85.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine">
+                                    </a>
+                                </div>
+                                <h3 class="article-headline">
+                                    <a href="#">
+                                        Can you pass a world history test?
+                                    </a>
+                                </h3>
+                            </article>
+                            <article class="flex-container">
+                                <div class="main-photo">
+                                    <a href="#">
+                                        <img src="images/85x85.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine">
+                                    </a>
+                                </div>
+                                <h3 class="article-headline">
+                                    <a href="#">
+                                        How well do you know The Golden Girls' Betty White?
+                                    </a>
+                                </h3>
+                            </article>
+                        </section>
+                        <!-- Play games -->
+                        <section class="block ed-columns">
+                            <h2 class="block-title">
+                                Play Sudoku
+                            </h2>
+                            <p>
+                                <a href="#">
+                                    <img src="images/300x250.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine">
+                                </a>
+                            </p>
+                        </section>
+                    </aside>
+                </div>
+                <div class="center-column">
+                    <section id="content">
+                        <!-- Top news -->
+                        <section class="top-news">
+                            <article class="lead-story">
+                                <h2 class="article-headline"><a href="#">Loss of trust, collegiality at Supreme Court after leak of draft opinion</a></h2>
+                                <div class="main-photo">
+                                    <a href="#"><img src="images/575x335.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine"></a>
+                                </div>
+                                <div class="article-text">
+                                    <div class="meta">
+                                    <span class="subscriber-only-tag">Subscriber-only</span>
+                                    </div>
+                                    <div class="summary">
+                                        <p>The Supreme Court is mired in distrust: Justice Clarence Thomas acknowledged as much in a recent public appearance, comparing this month’s leak of a draft opinion that would end national abortion rights to an infidelity.</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="flex-container">
+                                <div class="main-photo">
+                                    <a href="#">
+                                        <img src="images/85x85.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine">
+                                    </a>
+                                </div>
+                                <div>
+                                    <h2 class="article-headline">
+                                        <a href="#">Trump judges use one-two legal punch to block Biden agenda</a>
+                                    </h2>
+                                </div>
+                            </article>
+                            <article class="flex-container">
+                                <div class="main-photo">
+                                    <a href="#">
+                                        <img src="images/85x85.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine">
+                                    </a>
+                                </div>
+                                <div>
+                                    <h2 class="article-headline">
+                                        <a href="#">Senate GOP blocks Dems’ domestic terrorism bill, warn it threatened to target left’s political foes</a>
+                                    </h2>
+                                </div>
+                            </article>
+                            <article class="flex-container">
+                                <div class="main-photo">
+                                    <a href="#">
+                                        <img src="images/85x85.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine">
+                                    </a>
+                                </div>
+                                <div>
+                                    <h2 class="article-headline">
+                                        <a href="#">Republicans want to know how Biden will restock depleted oil reserves</a>
+                                    </h2>
+                                </div>
+                            </article>
+                        <div class="news-sections">
+                            <!-- Culture -->
+                            <section class="news-section">
+                                <div class="with-view-all">
+                                    <h2 class="block-title ribbon">
+                                        <a href="#">Culture</a>
+                                    </h2>
+                                    <span class="view-all">
+                                        <a href="#">
+                                            View all
+                                            <i class="fa fa-arrow-circle-o-right"></i>
+                                        </a>
+                                    </span>
+                                </div>
+                                <article class="first-story flex-container">
+                                    <div class="main-photo no-shrink">
+                                        <a href="#">
+                                            <img src="images/180x105.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h2 class="article-headline">
+                                            <a href="#">Maryland school district offers picture-book reading about transgender 4-year-old</a>
+                                        </h2>
+                                    </div>
+                                </article>
+                                <article class="flex-container">
+                                    <div class="main-photo no-shrink">
+                                        <a href="#">
+                                            <img src="images/85x85.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h2 class="article-headline">
+                                            <a href="#">Ray Liotta, ‘Goodfellas’ and ‘Field of Dreams’ star, dies</a>
+                                        </h2>
+                                    </div>
+                                </article>
+                                <article class="flex-container">
+                                    <div class="main-photo no-shrink">
+                                        <a href="#">
+                                            <img src="images/85x85.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h2 class="article-headline">
+                                            <a href="#">Kevin Spacey charged in U.K. with 4 counts of sexual assault</a>
+                                        </h2>
+                                    </div>
+                                </article>
+                            </section>
+                            <!-- White House Watch -->
+                            <section class="news-section">
+                                <div class="with-view-all">
+                                    <h2 class="block-title ribbon white-house">
+                                        <a href="#">White House Watch</a>
+                                    </h2>
+                                    <span class="view-all">
+                                        <a href="#">
+                                            View all
+                                            <i class="fa fa-arrow-circle-o-right"></i>
+                                        </a>
+                                    </span>
+                                </div>
+                                <article class="first-story flex-container">
+                                    <div class="main-photo no-shrink">
+                                        <a href="#">
+                                            <img src="images/180x105.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h2 class="article-headline">
+                                            <a href="#">White House won’t lift sanctions despite Russian pressure amid looming food crisis</a>
+                                        </h2>
+                                    </div>
+                                </article>
+                                <article class="flex-container">
+                                    <div class="main-photo no-shrink">
+                                        <a href="#">
+                                            <img src="images/85x85.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h2 class="article-headline">
+                                            <a href="#">Bidens to visit the scene of the Texas school massacre on Sunday</a>
+                                        </h2>
+                                    </div>
+                                </article>
+                                <article class="flex-container">
+                                    <div class="main-photo no-shrink">
+                                        <a href="#">
+                                            <img src="images/85x85.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h2 class="article-headline">
+                                            <a href="#">Biden launches first federal test-to-treat site for COVID-19</a>
+                                        </h2>
+                                    </div>
+                                </article>
+                            </section>
+                            
+                            <!-- View All -->
+                            <section class="news-section">
+                                <div class="with-view-all flex-container">
+                                    <!-- <h2 class="block-title ribbon">
+                                        <a href="#"></a>
+                                    </h2> -->
+                                    <span class="view-all">
+                                        <a href="#">
+                                            View all
+                                            <i class="fa fa-arrow-circle-o-right"></i>
+                                        </a>
+                                    </span>
+                                </div>
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                <!-- </div> -->
+                <div class="right-column">
+                    <aside>
+                        <!-- Social bar -->
+                        <div class="socialbar">
+                            <span>Follow Us</span>
+                            &nbsp;
+                            <a href="#">
+                                <img class="socialicon" src="images/30x30.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine">
+                            </a>
+                            &nbsp;
+                            <a href="#">
+                                <img class="socialicon" src="images/30x30.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine">
+                            </a>
+                            &nbsp;
+                            <a href="#">
+                                <img class="socialicon" src="images/30x30.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine">
+                            </a>
+                            &nbsp;
+                            <a href="#">
+                                <img class="socialicon" src="images/30x30.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine">
+                            </a>
+                        </div>
+                        <!-- Search bar -->
+                        <div class="search">
+                            <form action="#" method="POST">
+                                <fieldset>
+                                    <legend></legend>
+                                    <input type="search" placeholder="Search">
+                                    <button type="submit" value="GO">GO</button>
+                                </fieldset>
+                            </form>
+                        </div>
+                        <!-- Commentary -->
+                        <section class="block our-voices desktop-only">
+                            <h2 class="block-title"><a href="#">
+                                Commentary
+                            </a></h2>
+                            <article class="flex-container">
+                                <div class="main-photo"><a href="#">
+                                    <img src="./Washington Times - Politics, Breaking News, US and World News_files/85x119" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine">
+                                </a></div>
+                                <div>
+                                    <h3 class="article-headline"><a href="#">
+                                        Charles Hurt
+                                    </a></h3>
+                                    <p>
+                                        <a href="#">Biden, Obama exploit tragedy for personal, political gain</a>
+                                        <br>
+                                        <span class="subscriber-only-tag">Subscriber-only</span>
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="flex-container">
+                                <div class="main-photo"><a href="#">
+                                        <img src="./Washington Times - Politics, Breaking News, US and World News_files/85x119" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine">
+                                </a></div>
+                                <div>
+                                    <h3 class="article-headline"><a href="#">Tim Murtaugh</a></h3>
+                                    <p>
+                                        <a href="#">Georgia election turnout proves media wrong again</a>
+                                        <br>
+                                    </p>
+                                </div>
+                            </article>
+                            <p class="more"><a href="#">
+                                MORE COLUMNISTS
+                                <i class="fa fa-arrow-circle-o-right"></i>
+                            </a></p>
+                        </section>
+                        <!-- Rapid Reactions -->
+                        <section class="block">
+                            <h2 class="block-title"><a href="#">
+                                Rapid Reactions
+                            </a></h2>
+                            <article class="flex-container">
+                                <div class="main-photo">
+                                    <a href="#">
+                                        <img src="images/85x85.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine">
+                                    </a>
+                                </div>
+                                <div>
+                                    <h3 class="article-headline">
+                                        <div class="story-tags"><span class="subscriber-only-tag">Subscriber-only</span></div>
+                                        <a href="#">Another socialist masquerading as Democrat runs for Congress</a>
+                                    </h3>
+          
+                                </div>
+                            </article>
+                            <article class="flex-container">
+                                <div class="main-photo">
+                                    <a href="#"><img src="images/85x85.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine"></a>
+                                </div>
+                                <div>
+                                    <h3 class="article-headline"><a href="#">Michael Moore demands end to Second Amendment</a></h3>
+                                </div>
+                            </article>
+                            <p class="more"><a href="#">READ MORE</a></p>
+                        </section>
+                        <!-- Media Spotlight -->
+                        <section class="block">
+                            <h2 class="block-title"><a href="#">
+                                Media Spotlight
+                            </a></h2>
+                            <article class="flex-container">
+                                <div class="main-photo">
+                                    <a href="#"><img src="images/85x85.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine"></a>
+                                </div>
+                                <div>
+                                    <h3 class="article-headline"><a href="#">Jen Psaki, ex-White House press secretary, hired by MSNBC</a></h3>
+                                </div>
+                            </article>
+                            <article class="flex-container">
+                                <div class="main-photo">
+                                    <a href="#"><img src="images/85x85.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine"></a>
+                                </div>
+                                <div>
+                                    <h3 class="article-headline"><a href="#">D.C. AG Racine sues Facebook’s Zuckerberg for abusing consumers in Cambridge Analytics data breach</a></h3>
+                                </div>
+                            </article>
+                            <article class="flex-container">
+                                <div class="main-photo">
+                                    <a href="#"><img src="images/85x85.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine"></a>
+                                </div>
+                                <div>
+                                    <h3 class="article-headline"><a href="#">Bipartisan bill targets near-total control of online advertising by Facebook, Google</a></h3>
+                                </div>
+                            </article>
+                            <p class="more"><a href="#">READ MORE</a></p>
+                        </section>
+                        <!-- Opinion -->
+                        <section class="block">
+                            <h2 class="block-title"><a href="#">
+                                Opinion
+                            </a></h2>
+                            <article class="flex-container">
+                                <div class="main-photo">
+                                    <a href="#"><img src="images/85x85.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine"></a>
+                                </div>
+                                <div><h3 class="article-headline"><a href="#">Biden, Obama exploit tragedy for personal, political gain</a></h3></div>
+                            </article>
+                            <article class="flex-container">
+                                <div class="main-photo">
+                                    <a href="#"><img src="images/85x85.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine"></a>
+                                </div>
+                                <div>
+                                    <h3 class="article-headline">
+                                        <div class="story-tags">
+                                            <span class="subscriber-only-tag">Subscriber-only</span>
+                                        </div>
+                                        <a href="#">Georgia election turnout proves media wrong again</a>
+                                    </h3>
+                                </div>
+                            </article>
+                            <article class="flex-container">
+                                <div class="main-photo">
+                                    <a href="#"><img src="images/85x85.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine"></a>
+                                </div>
+                                <div>
+                                    <h3 class="article-headline"><a href="#">Honoring the 13 fallen heroes in Afghanistan</a></h3>
+                                </div>
+                            </article>
+                        </section>
+                        <!-- Latest Cartoon -->
+                        <section class="block our-voices cartoon">
+                            <h2 class="block-title"><a href="#">
+                                Latest Cartoon
+                            </a></h2>
+                            <article>
+                                <a href="#"><img src="images/300x221.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine"></a>
+                                <p><a href="#">Uvalde, Texas</a></p>
+                            </article>
+                        </section>
+                        
+                        <!-- Photo galleries -->
+                        <section class="block galleries">
+                            <h2 class="block-title">
+                                Photo Galleries
+                            </h2>
+                            <img src="images/300x200.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine">
+                            <h4 class="gallery-headline">
+                                <a href="#">Washington Commanders team name and logo reveal from Fedex Field</a>
+                                <!-- &nbsp; -->
+                                <span class="meta-text">23 Photos</span>
+                            </h4>
+                            <div>&nbsp;</div>
+                            <div>&nbsp;</div>
+                        </section>
+                        <!-- Today's Paper -->
+                        <section class="block whats-trending">
+                            <h2 class="block-title">
+                                Today's Paper
+                            </h2>
+                            <article>
+                                <div class="upper-container flex-container">
+                                    <div class="main-photo">
+                                        <a href="#"><img src="images/85x150.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine"></a>
+                                    </div>
+                                    <div>
+                                        <h3 class="article-headline">
+                                            <a href="#">Sign up for delivery</a>
+                                        </h3>
+                                        <p>Start your day with the in-depth news and information you want.</p>
+                                        <p>If you live outside Metropolitan Washington subscribe to <a href="#">The Weekly</a></p>
+                                    </div>
+                                </div>
+                                <p class="view-today"><a href="#">
+                                    <strong>View today's front page &gt;</strong>
+                                </a></p>
+                            </article>
+                        </section>
+                        <!-- Front Page Podcast -->
+                        <section class="block">
+                            <h2 class="block-title">
+                                Front Page Podcast
+                            </h2>
+                            <img src="images/306x291.png" alt="Testo descrittivo per l'immagine placeholder" title="Titolo dell'immagine">
+                        </section>
+                    </aside>
+                </div>
+            </div>
+          </div>
+
+        <!-- Last Subsection -->
+        <footer id="pre-footer">
+            <div class="container more-news">
+                <header>
+                    <img src="images/logored.png" alt="Testo descrittivo per il logo rosso" title="LOgo rosso WT">
+                    <h2>More News</h2>
+                </header>
+                <div class="row">
+                    <section>
+                        <h3><a href="#">Waste, fraud &amp; abuse</a></h3>
+                        <article class="lead-story"><h4><a href="#">Joffe business partner says he was tasked with tying Trump associates to Russia</a></h4></article>
+                        <article><h4><a href="#">FBI agent testifies he’s under investigation for withholding evidence in Trump-Russia probe</a></h4></article>
+                    </section>
+                    <section>
+                        <h3><a href="#">Security</a></h3>
+                        <article class="lead-story"><h4><a href="#">U.S. eyes new generation of boats, radios, cameras and other tools for potential clash with China</a></h4></article>
+                        <article><h4><a href="#">Russia secretly removed bodies from sunken flagship Moskva: Report</a></h4></article>
+                    </section>
+                    <section>
+                        <h3><a href="#">D.C. Local</a></h3>
+                        <article class="lead-story"><h4><a href="#">Virginia reports first case of monkeypox</a></h4></article>
+                        <article><h4><a href="#">Maryland school district offers picture-book reading about transgender 4-year-old</a></h4></article>
+                    </section>
+                    <section>
+                        <h3><a href="#">World</a></h3>
+                        <article class="lead-story"><h4><a href="#">Blinken: Biden administration policy on China does not seek end of communist system</a></h4></article>
+                        <article><h4><a href="#">U.S. eyes new generation of boats, radios, cameras and other tools for potential clash with China</a></h4></article>
+                    </section>
+                    <section>
+                        <h3><a href="#">Business &amp; Economy</a></h3>
+                        <article class="lead-story"><h4><a href="#">Twitter shareholders sue Elon Musk, say he ‘deflated’ stock price</a></h4></article>
+                        <article><h4><a href="#">CEO pay up 17% as profits, stocks soar; workers fall behind</a></h4></article>
+                        
+                    </section>
+                </div>
+            </div>
+        
+        
+            <div class="container inside-policy">
+                <header>
+                    <img src="images/logored.png" alt="Testo descrittivo per il logo rosso" title="LOgo rosso WT">
+                    <h2>Policy</h2>
+                </header>
+                <div class="row">
+                    <section>
+                        <h3><a href="#">Energy &amp; Environment</a></h3>
+                        <article><h4><a href="#">Patience wears thin for Sen. Joe Manchin to strike bipartisan deal on energy, climate</a></h4></article>
+                    </section>
+                    <section>
+                        <h3><a href="#">Banking &amp; Finance</a></h3>
+                        <article><h4><a href="#">U.S. economy shrank by 1.5% in Q1, but consumers kept spending</a></h4></article>
+                    </section>
+                    <section>
+                        <h3><a href="#">Coronavirus (Covid-19) Pandemic Updates</a></h3>
+                        <article><h4><a href="#">Novavax vaccine poised to be a fourth COVID-19 option in U.S.</a></h4></article>
+                    </section>
+                    <section>
+                        <h3><a href="#">Second Amendment &amp; Gun Control</a></h3>
+                        <article><h4><a href="#">McConnell endorses talks with Dems over possible gun legislation after Texas school massacre</a></h4></article>
+                    </section>
+                    <section>
+                        <h3><a href="#">Immigration Reform</a></h3>
+                        <article><h4><a href="#">FBI investigating assassination plot against George W. Bush</a></h4></article>
+                    </section>
+                    <section><h3><a href="#">Homeland &amp; Cybersecurity</a></h3>
+                        <article><h4><a href="#">ESenate Republicans press Mayorkas for records from Homeland Security disinformation board</a></h4></article>
+                    </section>
+                    <section><h3><a href="#">Aerospace &amp; Defense</a></h3>
+                        <article><h4><a href="#">North Korea built up nuclear, missile power during pandemic</a></h4></article>
+                    </section>
+                    <section>
+                    <h3><a href="#">Taxes &amp; Budget</a></h3>
+                        <article><h4><a href="#">$1.9T COVID-19 relief advanced equity, boosted Black people and Hispanic people, report finds</a></h4></article>
+                    </section>
+                    <section>
+                        <h3><a href="#">Law Enforcement &amp; Intelligence</a></h3>
+                        <article><h4><a href="#">Police face questions over response to Texas school shooting</a></h4></article>
+                    </section>
+                    <section>
+                        <h3><a href="#">Transport &amp; Infrastructure</a></h3>
+                        <article><h4><a href="#">Boeing will move its headquarters to D.C. area from Chicago</a></h4></article>
+                    </section>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="footer-inner">
+                <div id="contact-links" class="container">
+                    <div class="row">
+                        <section class="newsletter">
+                            <div class="block-content">
+                                <h3>Newsletters</h3>
+                                <form action="#">
+                                    <ul>
+                                        <li><input type="checkbox" name="breaking-news"> Breaking News </li>
+                                        <li><input type="checkbox" name="breaking-news"> Tammy Bruce </li>
+                                        <li><input type="checkbox" name="breaking-news"> Daily </li>
+                                        <li><input type="checkbox" name="breaking-news"> Jennifer Harper </li>
+                                        <li><input type="checkbox" name="breaking-news"> Weekly </li>
+                                        <li><input type="checkbox" name="breaking-news"> Bill Gertz </li>
+                                        <li><input type="checkbox" name="breaking-news"> Today's Opinion </li>
+                                        <li><input type="checkbox" name="breaking-news"> Front Page Podcast </li>
+                                        <li><input type="checkbox" name="breaking-news"> Charles Hurt </li>
+                                        <li><input type="checkbox" name="breaking-news"> Cheryl Chumley </li>
+                                    </ul>
+                                    <br>
+                                    <input type="email" name="email" placeholder="Email Address">
+                                    <input type="submit" value="Submit">
+                                </form>
+                            </div>
+                            <p>
+                                <a href="#">Terms of Use</a> / 
+                                <a href="#">Privacy Policy</a> / 
+                                <a href="#">Manage Newsletters</a>
+                            </p>
+                        </section>
+                    
+                    </div>
+                </div>
+                <div id="section-links">
+                    <nav id="footer-links" class="container">
+                        <div class="row">
+                            <ul class="menu">
+                                <li class="em"><a href="#">News</a></li>
+                                <li><a href="#">Corrections</a></li>
+                                <li><a href="#">Politics</a></li>
+                                <li><a href="#">White House</a></li>
+                                <li><a href="#">COVID-19 Updates</a></li>
+                                <li><a href="#">National</a></li>
+                                <li><a href="#">World</a></li>
+                                <li><a href="#">Security</a></li>
+                                <li><a href="#">Business &amp; Economy</a></li>
+                                <li><a href="#">D.C. Local</a></li>
+                                <li><a href="#">Media Spotlight</a></li>
+                                <li><a href="#">Newsmakers</a></li>
+                                <li><a href="#">Waste, Fraud &amp; Abuse</a></li>
+                                <li><a href="#">Inside the Ring</a></li>
+                                <li><a href="#">Faith &amp; Family</a></li>
+                                <li><a href="#">Culture</a></li>
+                                <li><a href="#">Entertainment</a></li>
+                                <li><a href="#">Technology</a></li>
+                                <li><a href="#">Obituaries</a></li>
+                                <li><a href="#">Just the Headlines</a></li>
+                                <li><a href="#">Photo Galleries</a></li>
+                                <li><a href="#">Dive Deeper</a></li>
+                            </ul>
+                            <ul class="menu">
+                                <li class="em"><a href="#">Policy</a></li>
+                                <li><a href="#">Corrections</a></li>
+                                <li><a href="#">Energy &amp; Environment</a></li>
+                                <li><a href="#">Baking &amp; Finance</a></li>
+                                <li><a href="#">Health Care Reform</a></li>
+                                <li><a href="#">Second Amendment</a></li>
+                                <li><a href="#">Immigration Reform</a></li>
+                                <li><a href="#">Homeland &amp; Cybersecurity</a></li>
+                                <li><a href="#">Aerospace &amp; Defense</a></li>
+                                <li><a href="#">Taxes &amp; Budget</a></li>
+                                <li><a href="#">Law Enforcement &amp; Intelligence</a></li>
+                                <li><a href="#">Transportation &amp; Infrastructure</a></li>
+                            </ul>
+                            <ul class="menu">
+                                <li class="em"><a href="#">Commentary</a></li>
+                                <li><a href="#">Commentary Main</a></li>
+                                <li><a href="#">Corrections</a></li>
+                                <li><a href="#">Editorials</a></li>
+                                <li><a href="#">Letters</a></li>
+                                <li><a href="#">Charles Hurt</a></li>
+                                <li><a href="#">Cheryl K. Chumley</a></li>
+                                <li><a href="#">Kelly Sadler</a></li>
+                                <li><a href="#">Jed Babbin</a></li>
+                                <li><a href="#">Tom Basile</a></li>
+                                <li><a href="#">Tim Constantine</a></li>
+                                <li><a href="#">Joseph Curl</a></li>
+                                <li><a href="#">Daniel N. Hoffman</a></li>
+                                <li><a href="#">David Keene</a></li>
+                                <li><a href="#">Robert Knight</a></li>
+                                <li><a href="#">Clifford D. May</a></li>
+                                <li><a href="#">Michael McKenna</a></li>
+                                <li><a href="#">Tim Murtaugh</a></li>
+                                <li><a href="#">Everett Piper</a></li>
+                                <li><a href="#">Cal Thomes</a></li>
+                                <li><a href="#">Scott Walker</a></li>
+                                <li><a href="#">Inside the Beltway</a></li>
+                                <li><a href="#">Black Voices</a></li>
+                                <li><a href="#">Books</a></li>
+                                <li><a href="#">Cartoons</a></li>
+                                <li><a href="#">U.S.-Russia Crosstalk</a></li>
+                                <li><a href="#">To the Republic</a></li>
+                            </ul>
+                            <ul class="menu">
+                                <li class="em"><a href="#">Sports</a></li>
+                                <li><a href="#">Sports Main</a></li>
+                                <li><a href="#">Corrections</a></li>
+                                <li><a href="#">Washington Commanders</a></li>
+                                <li><a href="#">Football</a></li>
+                                <li><a href="#">Baseball</a></li>
+                                <li><a href="#">Basketball</a></li>
+                                <li><a href="#">NCAA</a></li>
+                                <li><a href="#">Thom Loverro</a></li>
+                                <li><a href="#">Tennis</a></li>
+                                <li><a href="#">Golf</a></li>
+                                <li><a href="#">Hockey</a></li>
+                                <li><a href="#">Soccer</a></li>
+                                <li><a href="#">Horse Racing</a></li>
+                                <li><a href="#">NASCAR &amp; Racing</a></li>
+                                <li><a href="#">District of Sports Podcast</a></li>
+                                <li><a href="#">Sports Photos</a></li>
+                            </ul>
+                            <ul class="menu">
+                                <li class="em"><a href="#">Sponsored</a></li>
+                                <li><a href="#">Corrections</a></li>
+                                <li><a href="#">Vietnam 2021</a></li>
+                                <li><a href="#">Health Care on the Hill</a></li>
+                                <li><a href="#">Greece 2021</a></li>
+                                <li><a href="#">Infrastructure 2021</a></li>
+                                <li><a href="#">Invest in Portugal</a></li>
+                                <li><a href="#">Health Care 2022</a></li>
+                                <li><a href="#">Energy &amp; Environment 2022</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+        
+                <nav id="footer-nav">
+                    <div class="container flex-container">
+                        <ul class="menu">
+                            <li><a href="#">Subscribe</a></li>
+                            <li><a href="#">Classifieds</a></li>
+                            <li><a href="#">E-edition</a></li>
+                            <li><a href="#">Customer Service</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">RSS</a></li>
+                            <li><a href="#">Advertise</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+        
+                <div class="container">
+                <h6>
+                    <span class="copyright-info">All site contents © Copyright 2022 <span class="nowrap">The Washington Times, LLC</span><span class="separator">|</span></span>
+                    <span class="address">
+                        3600 New York Avenue NE <span class="separator">|</span> 
+                        Washington, DC 20002 <span class="separator">|</span>
+                        202-636-3000
+                    </span>
+                    </h6>
+                </div>
+            </section>
+            </div>
+        </footer>
+        </div>
+        </div>
+  
+  
+  </body>
+  </html>
